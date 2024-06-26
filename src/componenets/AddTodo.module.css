@@ -1,0 +1,39 @@
+.NameInput{
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    box-shadow: 0px 5px 10px rgb(25, 25, 25);
+}
+.NameInput:focus{
+   background-color: #95D2B3;
+}
+
+.DateInput{
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgb(25, 25, 25);
+    padding: 8px;
+}
+.DateInput:focus{
+    background-color: #95D2B3;
+
+}
+.custombtn{
+    width: 50%;
+    background-color: #FFC700 !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    color: black !important;
+    border:none !important;
+    height: 41px;
+    box-shadow: 0px 5px 10px rgb(25, 25, 25);
+    transition: transform 0.5s !important;
+}
+.custombtn:hover{
+    background-color: #cda206 !important;
+    color: black !important;
+    transform: translateY(-5px);
+}
+.AddIcone{
+    font-size: 20px;
+}

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 50px;
+    overflow: auto; /* Ensure scrolling is enabled */
+}
+
+body::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
+}
+
+input{
+ width: 100%;
+}
+.row2{
+    text-align: start;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.btn2{
+  min-width: 80px;
+}
